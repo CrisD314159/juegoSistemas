@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="445.0" prefWidth="575.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.onlinePurchasesAsserts">
+   <children>
+      <ImageView fitHeight="210.0" fitWidth="236.0" layoutX="183.0" layoutY="51.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Assets/round-cross-mark-symbol-with-transparent-background-free-png.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="217.0" layoutY="254.0" text="Fallaste!!!">
+         <font>
+            <Font name="Comic Sans MS" size="32.0" />
+         </font>
+      </Label>
+      <Button fx:id="continueButton" layoutX="190.0" layoutY="312.0" mnemonicParsing="false" onAction="#continueFeedback" prefHeight="109.0" prefWidth="166.0">
+         <font>
+            <Font size="21.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="119.0" fitWidth="180.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Assets/continue_button.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <ImageView fitHeight="180.0" fitWidth="239.0" layoutX="274.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Assets/0_points.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

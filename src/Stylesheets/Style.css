@@ -1,0 +1,107 @@
+.root{
+    -fx-background-color: #EADCCF;
+
+}
+.center-view{
+    -fx-alignment: center;
+    -fx-orientation: center;
+
+}
+
+
+#enjoyButton{
+    -fx-background-radius: 24px;
+    -fx-background-color: #e0b788;
+}
+
+#enjoyButton:hover{
+    -fx-scale-y: .96;
+    -fx-scale-x: .96;
+    -fx-effect: dropshadow(gaussian, black, 6, .5, 5, 4);
+
+
+}
+#instructions{
+    -fx-background-color: transparent;
+}
+
+#iniciarButton, #startPhishingScene, #startButton{
+   -fx-background-color: transparent;
+    -fx-background-radius: 640px;
+    -fx-arc-height: 60px;
+}
+
+#iniciarButton:hover, #continueButton:hover, #startPhishingScene:hover, #backButton:hover, #startOnlinePurchases:hover
+, #failButton:hover, #startPinScene:hover, #rightWebButton:hover, #tryAgainButton:hover{
+    -fx-scale-y: .96;
+    -fx-scale-x: .96;
+    -fx-effect: dropshadow(gaussian, black, 6, .5, 2, 2);
+}
+
+#startPhishingScene:pressed, #startButton:pressed{
+    -fx-scale-y: .96;
+    -fx-scale-x: .96;
+    -fx-effect: dropshadow(gaussian, blue, 6, .5, 2, 2);
+}
+
+#startButton{
+    -fx-background-color: transparent;
+}
+
+#startButton:hover{
+    -fx-background-color: transparent;
+    -fx-effect: dropshadow(gaussian, black, 6, .3, 3, 4);
+}
+
+#fakeButton, #rightButton{
+    -fx-background-color: transparent;
+}
+
+#fakeButton:hover, #rightButton:hover{
+    -fx-background-color: transparent;
+    -fx-text-fill: blue;
+}
+
+
+#rightPane, #leftPane{
+    -fx-background-color: aliceblue;
+    -fx-background-radius: 80px;
+    -fx-effect: dropshadow(gaussian, black, 6, .3, 3, 4);
+}
+
+#continueButton, #backButton, #tryAgainButton, #startOnlinePurchases, #failButton, #startPinScene, #rightWebButton{
+    -fx-background-color: transparent;
+}
+
+#passwordPane, #pinPane{
+    -fx-background-color: aliceblue;
+    -fx-background-radius: 30px;
+    -fx-effect: dropshadow(gaussian, black, 6, .9, 3, 4);
+
+}
+
+.text-field{
+    -fx-background-color: #bbbbe8;
+    -fx-effect: dropshadow(gaussian, black, 6, .3, 3, 4);
+}
+
+#checkButton, #checkPinButton {
+    -fx-background-color: #9393ea;
+    -fx-border: none;
+
+}
+
+#checkButton:hover, #checkPinButton:hover {
+    -fx-scale-y: 0.96;
+    -fx-scale-x: 0.96;
+    -fx-effect: dropshadow(gaussian, black, 6, 0.9, 3, 4);
+}
+
+
+
+
+
+
+
+
+

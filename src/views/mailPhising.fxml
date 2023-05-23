@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Point3D?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="601.0" prefWidth="1153.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.correosPhisisngController">
+   <children>
+      <Pane fx:id="leftPane" layoutX="23.0" layoutY="189.0" prefHeight="424.0" prefWidth="540.0">
+         <children>
+            <Label layoutX="40.0" layoutY="66.0" text="Google">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="86.0" layoutY="66.0" prefHeight="17.0" prefWidth="250.0" text="Re:  noreply@google.com" />
+            <Label layoutX="36.0" layoutY="20.0" text="Confirma tu cuenta de Google">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="40.0" layoutY="85.0" text="Para mi">
+               <font>
+                  <Font size="9.0" />
+               </font>
+            </Label>
+            <Line endX="436.0" layoutX="93.0" layoutY="110.0" startX="-54.1608772277832" stroke="#b9b9b9" />
+            <ImageView fitHeight="30.0" fitWidth="25.0" layoutX="7.0" layoutY="63.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Assets/2000px-Google_G_Logo.svg_.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="32.0" layoutY="130.0" text="Hola @usuario!!  " />
+            <Label layoutX="33.0" layoutY="176.0" text="Gracias por utilizar nuestros servicios. Para garantizar la seguridad de tu cuenta, hemos " />
+            <Label layoutX="34.0" layoutY="197.0" text="implementado un proceso de verificación adicional. A continuación, encontrarás un link" />
+            <Label layoutX="33.0" layoutY="217.0" text="de verificación de cuenta para completar el proceso de autenticación:" />
+            <Label layoutX="31.0" layoutY="266.0" text="Enlace de verificacion:  " />
+            <Label layoutX="31.0" layoutY="337.0" text="Atentamente, el equipo de Google" />
+            <Button fx:id="rightButton" alignment="TOP_LEFT" layoutX="156.0" layoutY="263.0" mnemonicParsing="false" onAction="#redirectAssert" prefHeight="26.0" prefWidth="326.0" text="https://www.google.com/verify?token=abcdef123456" />
+         </children>
+      </Pane>
+      <Pane fx:id="rightPane" layoutX="614.0" layoutY="187.0" prefHeight="424.0" prefWidth="529.0">
+         <children>
+            <Label layoutX="40.0" layoutY="66.0" text="Google">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="86.0" layoutY="66.0" prefHeight="17.0" prefWidth="250.0" text="Re:  lmshahf232_we@gmail.com" />
+            <Label layoutX="36.0" layoutY="20.0" text="Confirma tu cuenta de Google">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="40.0" layoutY="85.0" text="Para mi">
+               <font>
+                  <Font size="9.0" />
+               </font>
+            </Label>
+            <Line endX="436.0" layoutX="93.0" layoutY="110.0" startX="-54.1608772277832" stroke="#b9b9b9" />
+            <ImageView fitHeight="30.0" fitWidth="25.0" layoutX="7.0" layoutY="63.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Assets/2000px-Google_G_Logo.svg_.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="32.0" layoutY="130.0" text="Hola @usuario!!  " />
+            <Label layoutX="33.0" layoutY="176.0" text="Gracias por utilizar nuestros servicios. Para garantizar la seguridad de tu cuenta, hemos " />
+            <Label layoutX="34.0" layoutY="197.0" text="implementado un proceso de verificación adicional. A continuación, encontrarás un link" />
+            <Label layoutX="33.0" layoutY="217.0" text="de verificación de cuenta para completar el proceso de autenticación:" />
+            <Label layoutX="31.0" layoutY="266.0" text="Enlace de verificacion:  " />
+            <Label layoutX="31.0" layoutY="337.0" text="Atentamente, el equipo de Google" />
+            <Button fx:id="fakeButton" alignment="TOP_LEFT" layoutX="156.0" layoutY="260.0" mnemonicParsing="false" onAction="#redirectFailure" prefHeight="26.0" prefWidth="321.0" text="https://www.guogle.com/verify?token=abcdef123456" />
+         </children>
+      </Pane>
+      <ImageView fitHeight="287.0" fitWidth="390.0" layoutX="372.0" layoutY="-34.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Assets/question_image.png" />
+         </image>
+      </ImageView>
+   </children>
+   <rotationAxis>
+      <Point3D x="100.0" z="1.0" />
+   </rotationAxis>
+</AnchorPane>
